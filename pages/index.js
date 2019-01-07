@@ -1,4 +1,8 @@
-import 'wired-elements'
+/**
+ * an example of a build-breaking dependency.
+ * Unhandled Rejection (SyntaxError): Unexpected token {
+ * */
+import "wired-elements"
 
 const Index = () => (
   <div>
